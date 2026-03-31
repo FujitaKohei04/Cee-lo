@@ -1,14 +1,14 @@
 .ceeLoContainer {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
     align-content: center;
     width: 100%;
     height: 100%;
 }
 
-.rollButton {
+.button {
     font-size: var(--font-subtitle);
     font-weight: bold;
     padding: var(--space-l);
@@ -17,6 +17,15 @@
     border-radius: var(--space-l);
     justify-self: center;
     align-self: center;
+}
+
+.helpButton {
+    border-radius: 50%;
+    height: 80px;
+    margin: var(--space-s);
+    aspect-ratio: 1 / 1;
+    align-self: start;
+    justify-self: end;
 }
 
 .diceContainer {
@@ -45,3 +54,4 @@
     border: 1px solid var(--foreground);
     border-radius: var(--space-m);
 }
+

@@ -1,0 +1,30 @@
+.descContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.combContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: 60px 1fr;
+    gap: var(--space-m);
+}
+
+.die {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--foreground);
+    border-radius: var(--space-m);
+}
+
+.name {
+    white-space: pre;
+    grid-column: 1/2;
+    grid-row: 2;
+}
+
+.desc {
+    grid-column: 3;
+    grid-row: 2;
+}
