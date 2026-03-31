@@ -1,0 +1,47 @@
+.ceeLoContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.rollButton {
+    font-size: var(--font-subtitle);
+    font-weight: bold;
+    padding: var(--space-l);
+    color: var(--background);
+    background-color: var(--primary);
+    border-radius: var(--space-l);
+    justify-self: center;
+    align-self: center;
+}
+
+.diceContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: 100px;
+    justify-content: center;
+    align-content: center;
+    gap: var(--space-m);
+}
+
+@media (min-width: 768px) {
+    .diceContainer {
+        display: grid;
+        grid-template-columns: repeat(3, 200px);
+        grid-template-rows: 200px;
+        justify-content: center;
+        align-content: center;
+        gap: var(--space-m);
+    }
+}
+
+.die {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--foreground);
+    border-radius: var(--space-m);
+}

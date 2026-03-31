@@ -1,0 +1,11 @@
+.die {
+    width: 100%;
+    height: 100%
+}
+
+.pip {
+    r: 20; 
+    stroke: black;
+    stroke-width: 1;
+    fill: black;
+}
