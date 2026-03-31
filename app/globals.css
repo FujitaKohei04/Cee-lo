@@ -3,6 +3,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #008FC4;
+
+  --font-desc: 16px;
+  --font-subtitle: 32px;
+  --font-title: 64px;
+
+  --space-s: 4px;
+  --space-m: 8px;
+  --space-l: 16px;
 }
 
 @theme inline {
