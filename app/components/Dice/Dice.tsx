@@ -15,7 +15,9 @@ export function Die({pipCount}: {pipCount: number}) {
 
 function One() {
     return (
-        <circle cx="100" cy="100" className={styles.pip} />
+        <g>
+            <circle cx="100" cy="100" className={styles.pip} />
+        </g>
     );
 }
 
