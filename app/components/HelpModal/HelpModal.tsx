@@ -13,9 +13,9 @@ export const HelpModal = ({ isOpen, closeModal }: {isOpen: boolean, closeModal: 
             <div className={styles.descContainer}>
                 <Comb pipCounts={[1, 1, 1]} name="Triples" desc="x3"/>
                 <Comb pipCounts={[4, 5, 6]} name="High Straight" desc="x2"/>
-                <Comb pipCounts={[1, 2, 3]} name="Low Straight" desc="x-2"/>
                 <Comb pipCounts={[2, 2, 4]} name="Point" desc="x1"/>
                 <Comb pipCounts={[1, 2, 4]} name="No Combination" desc="x1"/>
+                <Comb pipCounts={[1, 2, 3]} name="Low Straight" desc="x-2"/>
             </div>
         </Modal>
     )
