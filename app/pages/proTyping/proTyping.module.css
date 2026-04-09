@@ -1,0 +1,25 @@
+.key {
+    border-bottom: 3px solid #999;
+    border-right: 3px solid #bbb;
+    border-left: 3px solid #ddd;
+    border-top: 3px solid #eee;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+}
+
+.keyLineContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 30px);
+}
+
+.keyContainer {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: 1fr;
+}

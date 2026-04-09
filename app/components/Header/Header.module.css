@@ -1,0 +1,5 @@
+.navContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    margin: var(--space-s)
+}
